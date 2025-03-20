@@ -1,0 +1,104 @@
+/* Full-screen container with centered form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #007bff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container styling */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form heading */
+h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centering the form elements */
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+/* Input group hover effect */
+.input-group:hover {
+  border-color: #007bff;
+}
+
+/* Icon styling */
+.input-group svg {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Paragraph styling */
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Link styling */
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Password toggle icon styling */
+.password-toggle {
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+}
